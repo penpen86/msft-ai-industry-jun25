@@ -1,1 +1,1 @@
-# msft-ai-industry-jun25
+# MLOpsV6
