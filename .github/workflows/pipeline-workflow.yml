@@ -19,7 +19,7 @@ jobs:
         # subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       secrets:
           creds: ${{secrets.AZURE_CREDENTIALS}}
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          # client-id: ${{ secrets.AZURE_CLIENT_ID }}
           
   register-dataset:
     needs: get-config
